@@ -11,6 +11,7 @@ public class UI extends PApplet
 	
 	private ArrayList<Colour> colours = new ArrayList<Colour>();
 	private ArrayList<Resistor> resistors = new ArrayList<Resistor>();
+	Resistor res1, res2, res3, res4;
 	
 	public void separate(int value)
 	{
@@ -33,6 +34,10 @@ public class UI extends PApplet
 
 	public void setup() 
 	{
+		res1 = new Resistor(100, 100, 120, );
+		res2 = new Resistor();
+		res3 = new Resistor();
+		res4 = new Resistor();
 	}
 	
 	public void loadColours()
@@ -69,6 +74,10 @@ public class UI extends PApplet
 	}
 
 	public void draw()
-	{			
+	{		
+		res1.render();
+		res2.render();
+		res3.render();
+		res4.render();	
 	}
 }
