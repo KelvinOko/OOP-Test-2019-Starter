@@ -60,7 +60,7 @@ public class UI extends PApplet
 
 	public void loadResistors()
 	{
-		Table table = loadTable("resistors.csv", "header");
+		Table table = loadTable("resistors.csv");
         for (TableRow row : table.rows()) 
         {
             Resistor resistor = new Resistor(row);
