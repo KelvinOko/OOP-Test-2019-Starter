@@ -34,10 +34,10 @@ public class UI extends PApplet
 
 	public void setup() 
 	{
-		res1 = new Resistor(100, 100, 120, );
-		res2 = new Resistor();
-		res3 = new Resistor();
-		res4 = new Resistor();
+		res1 = new Resistor(100, 100, 400, 100, 200, 50, 100, 400, this);
+		// res2 = new Resistor();
+		// res3 = new Resistor();
+		// res4 = new Resistor();
 	}
 	
 	public void loadColours()
